@@ -16,8 +16,8 @@ How it works
 =================
 The plugin is really minimalistic, the only option your allowed to set is the responsive setting. The responsive setting is by default true.
 
-$(".theclassnameoftheelements").EqualHeight();
+$(".nameoftheelements").EqualHeight();
 
-$(".theclassnameoftheelements").EqualHeight({
+$(".nameoftheelements").EqualHeight({
   responsive: false
 });
