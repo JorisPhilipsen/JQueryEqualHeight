@@ -1,5 +1,5 @@
-JQuery EqualHeight Plugin
+jQuery Equal Height Plugin
 =================
 
-JQuery plugin to create collums with equal height that works with multiple rows and responsive design.
+jQuery plugin to create collums with equal height that works with multiple rows and responsive design.
 
