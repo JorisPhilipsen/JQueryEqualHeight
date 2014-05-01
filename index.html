@@ -10,8 +10,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
-            #container {width: 900px;}
-            .column {width: 300px; float: left; background: #333;}
+            #container {width: 100%;}
+            .column {width: 25%; float: left; background: #333;}
         </style>
     </head>
     <body>
@@ -32,6 +32,9 @@
                 <p> Curabitur semper scelerisque orci in tempor. Proin tristique, libero luctus ultrices blandit, erat nulla interdum felis, ut ultricies tellus diam sit amet orci. Integer bibendum suscipit ligula a interdum. Curabitur est dui, iaculis quis lorem at, varius sodales massa. Phasellus aliquet ultrices elit, quis hendrerit tellus blandit in. Maecenas vitae ultricies augue. Morbi tempor, turpis eu interdum tempus, nisl lectus vulputate arcu, quis eleifend turpis urna vel neque. Pellentesque dui urna, ultricies in viverra ac, fermentum ac nibh. Pellentesque dui eros, facilisis vitae tempor elementum, lobortis eget dui. Pellentesque non dolor tincidunt, condimentum ipsum mollis, vestibulum tellus. Nullam eget blandit quam. Praesent nec aliquam enim. Aenean dictum dapibus tincidunt. </p>
                 <p> Curabitur semper scelerisque orci in tempor. Proin tristique, libero luctus ultrices blandit, erat nulla interdum felis, ut ultricies tellus diam sit amet orci. Integer bibendum suscipit ligula a interdum. Curabitur est dui, iaculis quis lorem at, varius sodales massa. Phasellus aliquet ultrices elit, quis hendrerit tellus blandit in. Maecenas vitae ultricies augue. Morbi tempor, turpis eu interdum tempus, nisl lectus vulputate arcu, quis eleifend turpis urna vel neque. Pellentesque dui urna, ultricies in viverra ac, fermentum ac nibh. Pellentesque dui eros, facilisis vitae tempor elementum, lobortis eget dui. Pellentesque non dolor tincidunt, condimentum ipsum mollis, vestibulum tellus. Nullam eget blandit quam. Praesent nec aliquam enim. Aenean dictum dapibus tincidunt. </p>
             </div>
+            <div class="column">
+                <h1>Title</h1>
+            </div>
         </div>
 
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -39,7 +42,9 @@
         <script src="jQueryEqualHeight.js"></script>
         <script>
             $( document ).ready(function() {
-                $(".column").EqualHeight();
+                $(".column").EqualHeight({
+                    responsive: true
+                });
             });
         </script>
     </body>
